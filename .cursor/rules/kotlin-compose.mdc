@@ -1,0 +1,14 @@
+---
+description: Kotlin and Jetpack Compose are the default. Honor TRACK.md.
+globs:
+  - "**/*.{kt,kts,md}"
+alwaysApply: true
+---
+
+# Kotlin + Compose
+
+- Language: Kotlin. Null-safe. No `!!` on production paths without an ADR.
+- UI: Jetpack Compose unless an approved ADR says otherwise.
+- Concurrency: coroutines + Flow. No `GlobalScope`.
+- Read `TRACK.md`. Do not add tablet pane work on a phone-only track unless the spec changed.
+- TAK tracks: Adapter at the host seam. Domain stays free of `com.atakmap` types.

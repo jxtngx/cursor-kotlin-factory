@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+.cxx/
+
+# Android
+*.apk
+*.aab
+*.ap_
+captures/
+.externalNativeBuild/
+
+# Keys
+*.jks
+*.keystore
+google-services.json
+*.p12
+
+# OS
+.DS_Store
+
+# Factory generated
+TRACK.md
+.cursor/plans/project-init/*.plan.md
+!/.cursor/plans/project-init/.gitkeep

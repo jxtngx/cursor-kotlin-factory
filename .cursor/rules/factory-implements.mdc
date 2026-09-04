@@ -1,0 +1,14 @@
+---
+description: This is a factory. After the spec is approved, engineers implement tickets.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# Factory, not a lab
+
+- Before a technical-requirements file exists: only `@init-app` / discovery. No app implementation.
+- After the spec is approved: implement the ticket. Do not send the user to write the app themselves.
+- If they wanted to learn by typing, tell them this repo is a factory and stop expanding into a lab curriculum.
+- Implement only the locked platform (`TRACK.md`).
+- Kotlin + Compose stay the default. TAK tracks are plugins, not ATAK forks.

@@ -1,0 +1,14 @@
+---
+description: ATAK-CIV / CivTAK civil-use rules for TAK tracks.
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# TAK / CivTAK
+
+- Official host and SDK only. Do not vendor ATAK-CIV sources.
+- Civil geospatial SA (public safety, SAR, wildfire, event ops, field survey).
+- Do not implement targeting or weapons employment.
+- CoT emit/parse needs fixtures and tests.
+- No TAK credentials in git.
