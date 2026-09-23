@@ -1,3 +1,9 @@
+---
+name: review-kotlin
+description: Review Kotlin
+disable-model-invocation: true
+---
+
 # Review Kotlin
 
 Run as `@reviewer`.

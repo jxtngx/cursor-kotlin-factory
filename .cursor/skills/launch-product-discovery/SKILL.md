@@ -1,3 +1,9 @@
+---
+name: launch-product-discovery
+description: Launch Product Discovery (Kotlin factory)
+disable-model-invocation: true
+---
+
 # Launch Product Discovery (Kotlin factory)
 
 Same *shape* as [cursor-swift-factory](https://github.com/jxtngx/cursor-swift-factory) discovery: questionnaire → technical requirements → architect → scrum.

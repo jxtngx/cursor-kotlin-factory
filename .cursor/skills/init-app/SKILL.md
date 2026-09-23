@@ -1,3 +1,9 @@
+---
+name: init-app
+description: Init App (factory)
+disable-model-invocation: true
+---
+
 # Init App (factory)
 
 Start a **new Kotlin / Compose product** from this factory.
